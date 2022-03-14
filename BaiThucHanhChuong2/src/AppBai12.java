@@ -31,6 +31,16 @@ public class AppBai12 {
         }
         //in phan tu lon nhat trong ma tran
         System.out.println("Phan tu lon nhat trong ma tran = "+max);
+
+        //duyet mang de in ra vi tri cac phan tu co gia tri bang gia tri max
+        System.out.println("Vi tri cua phan tu lon nhat:");
+        for(int i = 0; i < m ;i++){
+            for (int j = 0; j < n; j++) {
+                if (max == A[i][j]) {
+                    System.out.print("A[" + i + "]["+ j + "]\n");
+                }
+            }
+        }
         scanner.close();
     }
 }   
